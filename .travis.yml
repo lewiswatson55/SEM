@@ -48,6 +48,8 @@ jobs:
         skip_cleanup: true
 
 stages:
+  - unit tests
+  #- integration tests
   - name: GitHub Release
     if: branch = master
 
